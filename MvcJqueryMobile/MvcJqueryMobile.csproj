@@ -131,6 +131,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Assets\css\Hero.css" />
     <Content Include="Content\bootstrap-theme.css" />
     <Content Include="Content\bootstrap-theme.min.css" />
     <Content Include="Content\bootstrap.css" />
@@ -394,6 +395,8 @@
     <Content Include="Views\Pages\SinglePage.cshtml" />
     <Content Include="Views\Shared\_LayoutRaw.Mobile.cshtml" />
     <Content Include="Views\Pages\MultiPages.cshtml" />
+    <Content Include="Views\Shared\HeroPartial.cshtml" />
+    <Content Include="Views\Pages\MultiPagesPartial.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

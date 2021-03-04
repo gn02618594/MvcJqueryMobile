@@ -34,5 +34,17 @@ namespace MvcJqueryMobile.Controllers
             return View(Heroes);
         }
 
+        public ActionResult MultiPagesPartial()
+        {
+            List<Hero> Heroes = new List<Hero>
+            {
+                new Hero{ Id=1, PageId="page_Zilean", Header="時光守護者 極靈", Footer="Zilean 極靈", Introduction="極靈是時光守護者，可以扭曲任意英雄的時光，可以對友方英雄或敵方英雄施放。", ImageUrl="http://ddragon.leagueoflegends.com/cdn/img/champion/splash/Zilean_0.jpg", ImageAlt="Zilean",VideoUrl="https://www.youtube.com/embed/_Jc7bZZlGIo" },
+                new Hero{ Id=2, PageId="page_Teemo", Header="迅捷斥候 提摩", Footer="Teemo 提摩", Introduction="提摩的代表武器－吹箭，使用了採集於庫莽古叢林中的劇烈猛毒。", ImageUrl="http://ddragon.leagueoflegends.com/cdn/img/champion/splash/Teemo_0.jpg", ImageAlt="Teemo", VideoUrl="https://www.youtube.com/embed/Qj48qHM1MXE"},
+                new Hero{ Id=3, PageId="page_Sona", Header="琴仙 索娜", Footer="Sona 索娜", Introduction="索娜演奏的旋律能讓靈魂起舞，而她的沉寂卻如撕心裂肺。", ImageUrl="http://ddragon.leagueoflegends.com/cdn/img/champion/splash/Sona_4.jpg", ImageAlt="Sona", VideoUrl="https://www.youtube.com/embed/MAiOAert8us"}
+            };
+            return View(Heroes);
+
+        }
+
     }
 }
