@@ -360,6 +360,7 @@
     <Content Include="HtmlPages\PageStructure.html" />
     <Content Include="HtmlPages\PageTemplate.html" />
     <Content Include="HtmlPages\SinglePage.html" />
+    <Content Include="HtmlPages\ToolbarButton.html" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <None Include="Scripts\jquery-3.4.1.intellisense.js" />
