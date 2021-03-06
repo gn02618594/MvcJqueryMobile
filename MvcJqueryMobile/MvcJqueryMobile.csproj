@@ -357,6 +357,7 @@
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
     <Content Include="HtmlPages\ButtonStyles.html" />
+    <Content Include="HtmlPages\Dialog.html" />
     <Content Include="HtmlPages\IconPosition.html" />
     <Content Include="HtmlPages\Icons.html" />
     <Content Include="HtmlPages\MultiPages.html" />
