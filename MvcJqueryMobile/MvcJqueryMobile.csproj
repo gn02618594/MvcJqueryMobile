@@ -359,6 +359,7 @@
     <Content Include="HtmlPages\ButtonStyles.html" />
     <Content Include="HtmlPages\Dialog.html" />
     <Content Include="HtmlPages\DialogPage.html" />
+    <Content Include="HtmlPages\DialogTransitions.html" />
     <Content Include="HtmlPages\IconPosition.html" />
     <Content Include="HtmlPages\Icons.html" />
     <Content Include="HtmlPages\MultiPages.html" />
