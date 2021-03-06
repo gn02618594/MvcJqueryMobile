@@ -1,0 +1,37 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <link href="../Content/jquery.mobile-1.4.5.min.css" rel="stylesheet" />
+    <script src="../Scripts/jquery-2.2.4.min.js"></script>
+    <script src="../Scripts/jquery.mobile-1.4.5.min.js"></script>
+</head>
+<body>
+<div data-role="page">
+    <div data-role="header">
+        <h1>用 ListView 呈現各國旅遊資訊</h1>
+    </div>
+    <div role="main" class="ui-content">
+        <!--無排序號碼-->
+        <ul data-role="listview">
+            <li>法國</li>
+            <li>英國</li>
+            <li>美國</li>
+        </ul>
+        <!--有排序號碼-->
+        <ol data-role="listview">
+            <li>法國</li>
+            <li>英國</li>
+            <li>美國</li>
+        </ol>
+        <!--ListView 項目內含 Anchor 超連結-->
+        <ul data-role="listview" data-inset="true">
+            <li><a href="#">法國</a></li>
+            <li><a href="#">英國</a></li>
+            <li><a href="#">美國</a></li>
+        </ul>
+    </div>
+</div>
+</body>
+</html>

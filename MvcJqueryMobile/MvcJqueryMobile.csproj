@@ -362,6 +362,7 @@
     <Content Include="HtmlPages\DialogTransitions.html" />
     <Content Include="HtmlPages\IconPosition.html" />
     <Content Include="HtmlPages\Icons.html" />
+    <Content Include="HtmlPages\ListViewBasic.html" />
     <Content Include="HtmlPages\MultiPages.html" />
     <Content Include="HtmlPages\PageStructure.html" />
     <Content Include="HtmlPages\PageTemplate.html" />
